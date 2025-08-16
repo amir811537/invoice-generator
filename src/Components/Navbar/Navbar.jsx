@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
-import logo from '../../assets/logo-fresh.png'
+import logo from '../../assets/bgremovelogo.png'
 const Navbar = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
@@ -13,9 +13,7 @@ const Navbar = () => {
   const navlinks = (
     <>
       <li><NavLink className="text-xl" to="/">Invoice Generator </NavLink></li>
-      <li><NavLink className="text-xl" to="2">Navlink2</NavLink></li>
-      <li><NavLink className="text-xl" to="3">Navlink3</NavLink></li>
-      <li><NavLink className="text-xl" to="4">Navlink4</NavLink></li>
+  
     </>
   );
 
